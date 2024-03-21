@@ -36,6 +36,7 @@ Una vez recuperados del susto, veamos cómo resolverlos:
 **MERGE SUAVE**
 - Si los cambios que hemos hecho y los que han hecho otras personas afectan a archivos distintos o a líneas distintas de un mismo archivo, Git nos dará un modo automático de resolver estos conflictos 
 - Fíjate en los outputs que te dé Git en la terminal para orientarte 👀 
+    - Probablemente tengas que hacer `git config pull.rebase false` e intentar `git pull` de nuevo
 - Si ves una pantalla con información acerca del merge automático, haz `ctrl + X` para salir
 - Una vez fuera de la pantalla, intenta hacer push de nuevo `git push`
 
